@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+    margin:0;
+}
+header{
+    color: #F9FAF8;
+    background-color: #1f2937;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    margin: 0;
+}
+#links a{
+    color: #E5E7EB;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 8px;
+}
+
+.hero{
+    background-color: #1f2937;
+    margin: 0px;
+    display: flex;
+    padding: 100px 120px;
+}
+.intro h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin : 0;
+}
+.intro p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+.hero img{
+    width: 50%;
+    background-color: white;
+}
+.hero .intro{
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+.hero a{
+    text-decoration: none;
+    color: white;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 8px 32px;
+    align-self: flex-start;
+}
+
+.info{
+    padding: 100px 300px;
+}
+.info h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+.infoPanel{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 150px;
+    text-align: center;
+    color: gray;
+}
+.panel div{
+    width: 100%;
+    height: 170px;
+
+    border: solid #3882F6 4px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+
+.quote{
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    padding: 100px 350px
+}
+.quote p{
+    margin: 0px;
+}
+.quote #quoteAuthor{
+    text-align: end;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+.signup{
+    background-color: #3882F6;
+    margin: 120px 300px;
+    color:white;
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+    border: 2px white solid;
+    border-radius: 8px;
+    padding: 12px 28px;
+}
+.signup #callToAction{
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
